@@ -9,4 +9,6 @@ router.get('/about',(req,res)=>{
     res.render('About')
 })
 
+console.log("test the pull");
+
 module.exports = router
