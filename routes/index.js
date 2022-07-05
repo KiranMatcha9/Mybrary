@@ -8,5 +8,8 @@ router.get('/',(req,res)=>{
 router.get('/home',(req,res)=>{
     res.send('Home')
 })
+router.get('/about',(req,res)=>{
+    res.render('About')
+})
 
 module.exports = router
