@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 console.log("this is in the master");
+console.log('this is in the new_branch');
 
 router.get('/',(req,res)=>{
     res.render('index')
